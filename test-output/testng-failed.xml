@@ -3,15 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Appium.MobileAutomation.EbayApp">
+      <class name="com.tests.PlaceOrder">
         <methods>
-          <include name="eBaySearchAnItem"/>
-          <include name="eBayLogin"/>
-          <include name="setup"/>
-          <include name="eBayAddItemToCart"/>
-          <include name="teardown"/>
+          <include name="placeOrderTestCase" invocation-numbers="0"/>
+          <include name="takeScreenshot"/>
+          <include name="closeBrowser"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- Appium.MobileAutomation.EbayApp -->
+      </class> <!-- com.tests.PlaceOrder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
